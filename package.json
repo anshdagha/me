@@ -9,7 +9,6 @@
     "@testing-library/user-event": "latest",
     "@tsparticles/all": "latest",
     "@tsparticles/react": "latest",
-    "gh-pages": "latest",
     "jquery": "latest",
     "react": "latest",
     "react-dom": "latest",
@@ -44,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.3.0"
   }
 }
