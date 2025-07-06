@@ -1,0 +1,116 @@
+.skill-container {
+	padding: 0 40px;
+}
+
+.skill-body {
+	width: fit-content;
+	padding: 20px 25px;
+}
+
+.skill-body .skill-icon {
+	position: relative;
+	margin-bottom: 15px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 50% !important;
+	text-align: center !important;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	background-color: #23272f;
+	box-shadow: -0.0625rem 0 0.625rem 0 rgba(0, 0, 0, 0.07), 0.3125rem 1.25rem 2.5rem 0 rgba(0, 0, 0, 0.04) !important;
+}
+
+.skill-body .skill-icon img {
+	width: 50px;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+
+.skill-body .skill-name {
+	width: 100px;
+	font-size: 1rem;
+	font-weight: 500;
+	text-align: center;
+	text-wrap: wrap;
+}
+
+.skill-body .progress-bar-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.skill-body .progress-bar {
+	width: 100%;
+	height: 100%;
+	display: block;
+	transform: rotate(-90deg);
+}
+
+.skill-body .progress-background {
+	fill: none;
+	stroke: #000000; /* Background color */
+	stroke-width: 3;
+}
+
+.skill-body .progress-bar-value {
+	fill: none;
+	stroke-width: 3;
+	stroke-linecap: round;
+}
+
+.skill-body .progress-bar-value.basic {
+	stroke: #ffcc00; /* Yellow for Basic */
+}
+
+.skill-body .progress-bar-value.intermediate {
+	stroke: #3399ff; /* Blue for Intermediate */
+}
+
+.progress-bar-value.advanced {
+	stroke: #33cc33; /* Green for Advanced */
+}
+
+.skill-body .progress-bar-value.expert {
+	stroke: #9900cc; /* Purple for Expert */
+}
+
+@media (max-width: 767px) {
+	.skill-container {
+		padding: 0;
+	}
+	.skill-body {
+		padding: 10px;
+	}
+	.skill-body .skill-name {
+		width: 60px;
+		font-size: 13px;
+		text-wrap: wrap;
+	}
+	.skill-body .skill-icon {
+		position: relative;
+		margin-bottom: 15px;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+	}
+	.skill-body .skill-icon img {
+		width: 25px;
+		height: auto;
+		max-width: 100%;
+	}
+	.skill-body .progress-bar {
+		height: 60px;
+		width: 60px;
+	}
+}

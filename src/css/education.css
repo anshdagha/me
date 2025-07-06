@@ -1,0 +1,80 @@
+.education-image {
+	width: 100%;
+	padding: 0 60px;
+	opacity: 0.8;
+}
+
+.education-item {
+	padding: 30px;
+	border-left: solid 1px #b0b0b0;
+}
+
+.education-item .year-institute {
+	display: flex;
+	align-items: center;
+}
+
+.education-item .year {
+	display: inline-block;
+	line-height: 1.5;
+	font-size: 13px;
+	font-weight: 700;
+	margin: 0;
+	margin-left: -60px;
+	padding: 4px 10px;
+	color: #bf40bf;
+	background-color: #3f133f;
+	border: 2px solid #bf40bf;
+	border-radius: 30px;
+}
+
+.education-item .institute {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.education-item .details {
+	margin-top: 20px;
+}
+
+.education-item .title {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 10px 0 7px;
+}
+
+.education-item .marks-badge {
+	background-color: #3f133f !important;
+	color: #bf40bf;
+	font-size: 15px;
+	padding: 0.25rem 0.5rem;
+}
+
+.education-item .education-details li {
+	list-style: none;
+	margin-bottom: 2px;
+}
+
+@media (max-width: 1199px) {
+	.education-image {
+		padding: 0 30px;
+	}
+}
+
+@media (max-width: 991px) {
+	.education {
+		padding: 0;
+	}
+	.item-col {
+		margin-top: 40px;
+		padding-left: 40px;
+	}
+}
+
+@media (max-width: 991px) {
+	.education-item {
+		padding-right: 0 !important;
+	}
+}

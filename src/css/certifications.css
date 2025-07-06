@@ -1,0 +1,23 @@
+.certifications-container {
+	padding: 0 40px;
+}
+
+.certification-body {
+	width: fit-content;
+	padding: 0px 25px;
+}
+
+.certification-body .certification-icon {
+	position: relative;
+	margin-bottom: 15px;
+	width: 150px;
+	height: 150px;
+}
+
+.certification-body .certification-icon img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	margin-right: auto !important;
+	margin-left: auto !important;
+}

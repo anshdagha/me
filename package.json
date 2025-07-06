@@ -1,0 +1,49 @@
+{
+  "name": "me",
+  "version": "2.0.0",
+  "private": true,
+  "homepage": "https://anshdagha.github.io/me",
+  "dependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@tsparticles/all": "latest",
+    "@tsparticles/react": "latest",
+    "gh-pages": "latest",
+    "jquery": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest",
+    "typescript": "latest",
+    "web-vitals": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
