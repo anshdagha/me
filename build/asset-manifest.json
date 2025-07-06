@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.59e60516.css",
+    "main.js": "/me/static/js/main.43b752b6.js",
+    "static/media/background.jpg": "/me/static/media/background.9fb7d5f994d71e08a628.jpg",
+    "static/media/anshdagha.png": "/me/static/media/anshdagha.74fe871911f57c27217f.png",
+    "static/media/aws-certified-cloud-practitioner.png": "/me/static/media/aws-certified-cloud-practitioner.1f5aa2ab2f3105fbe32c.png",
+    "static/media/education.png": "/me/static/media/education.804a0a2cb16f1442853b.png",
+    "static/media/somaiya_logo.png": "/me/static/media/somaiya_logo.f2dd95e397eeb62969b0.png",
+    "static/media/route.png": "/me/static/media/route.a689c0d65228c086ae1c.png",
+    "static/media/jpmc_logo.jpg": "/me/static/media/jpmc_logo.e810b6ebbba43ec2ec74.jpg",
+    "static/media/logo.jpg": "/me/static/media/logo.06ec71411fcb00b7be34.jpg",
+    "static/media/angular-js.png": "/me/static/media/angular-js.57a072097859f30e594a.png",
+    "static/media/tiaa_logo.jpg": "/me/static/media/tiaa_logo.4a1f7251fa9033b4a467.jpg",
+    "static/media/react-js.png": "/me/static/media/react-js.910798123918af03bbee.png",
+    "static/media/react-native.png": "/me/static/media/react-native.ecb5b7d4ccd2880beb46.png",
+    "static/media/raspberry-pi.png": "/me/static/media/raspberry-pi.ce104b907f2ca286412f.png",
+    "index.html": "/me/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.59e60516.css",
+    "static/js/main.43b752b6.js"
+  ]
+}
