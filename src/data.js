@@ -21,7 +21,7 @@ export const timelineData = {
 			jobtitle: "Software Engineer",
 			company: "JPMorganChase",
 			timespan: "Feb 24 - Present",
-			jobDesc: "Full Stack Developer at 55ip, Asset Management, specializing in tax smart investing.",
+			jobDesc: "Backend Developer at 55ip, Asset Management, specializing in tax smart investing.",
 			logo: require("./images/jobs/jpmc_logo.jpg"),
 		},
 		{
@@ -33,7 +33,7 @@ export const timelineData = {
 		},
 		{
 			jobtitle: "Software Engineer Intern",
-			company: "TIAA GBS, India",
+			company: "TIAA",
 			timespan: "Jun 22 - Jul 22",
 			jobDesc: "Worked on a web-based analytics project, primarily tailored for internal employees.",
 			logo: require("./images/jobs/tiaa_logo.jpg"),
@@ -90,7 +90,7 @@ export const skillsData = [
 	{
 		skillname: "JavaScript",
 		icon: require("./images/skills/js.png"),
-		level: "advanced",
+		level: "intermediate",
 	},
 	{
 		skillname: "Bootstrap",
@@ -105,7 +105,7 @@ export const skillsData = [
 	{
 		skillname: "ReactJS",
 		icon: require("./images/skills/react-js.png"),
-		level: "advanced",
+		level: "intermediate",
 	},
 	{
 		skillname: "React Native",
@@ -120,7 +120,7 @@ export const skillsData = [
 	{
 		skillname: "Java",
 		icon: require("./images/skills/java.png"),
-		level: "intermediate",
+		level: "basic",
 	},
 	{
 		skillname: "Python",
@@ -135,12 +135,12 @@ export const skillsData = [
 	{
 		skillname: "Django",
 		icon: require("./images/skills/django.png"),
-		level: "intermediate",
+		level: "advanced",
 	},
 	{
 		skillname: "AWS",
 		icon: require("./images/skills/aws.png"),
-		level: "basic",
+		level: "intermediate",
 	},
 	{
 		skillname: "Firebase",
@@ -150,7 +150,7 @@ export const skillsData = [
 	{
 		skillname: "MySQL",
 		icon: require("./images/skills/mysql.png"),
-		level: "basic",
+		level: "intermediate",
 	},
 	{
 		skillname: "Android",
