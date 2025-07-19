@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.59e60516.css",
-    "main.js": "/me/static/js/main.43b752b6.js",
+    "main.css": "/me/static/css/main.424200e5.css",
+    "main.js": "/me/static/js/main.b8b9945b.js",
     "static/media/background.jpg": "/me/static/media/background.9fb7d5f994d71e08a628.jpg",
     "static/media/anshdagha.png": "/me/static/media/anshdagha.74fe871911f57c27217f.png",
     "static/media/aws-certified-cloud-practitioner.png": "/me/static/media/aws-certified-cloud-practitioner.1f5aa2ab2f3105fbe32c.png",
@@ -18,7 +18,7 @@
     "index.html": "/me/index.html"
   },
   "entrypoints": [
-    "static/css/main.59e60516.css",
-    "static/js/main.43b752b6.js"
+    "static/css/main.424200e5.css",
+    "static/js/main.b8b9945b.js"
   ]
 }
